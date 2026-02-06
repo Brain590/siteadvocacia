@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="hero-bg absolute inset-0 transition-transform duration-100">
         <img
-          src="/hero-bg.jpg"
+          src="/siteadvocacia/hero-bg.jpg"
           alt="Escritório de Advocacia"
           className="w-full h-full object-cover"
         />

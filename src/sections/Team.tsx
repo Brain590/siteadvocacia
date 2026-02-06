@@ -28,7 +28,7 @@ const Team = () => {
       name: 'Carlos Eduardo P. de Brito',
       role: 'Advogado Sênior, Escritor e Palestrante',
       oab: 'OAB/DF 44.005 e OAB/GO 41.166',
-      image: '/IMG-20180413-WA0044-1.jpg',
+      image: '/siteadvocacia/IMG-20180413-WA0044-1.jpg',
       specialties: ['Direito Cível', 'Trabalhista', 'Criminal', 'Inventários', 'Divórcio'],
       qualifications: [
         'Pós-Graduação em Direito e Processo Penal',
