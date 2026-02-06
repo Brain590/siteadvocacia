@@ -1,0 +1,59 @@
+/* App-specific styles */
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom selection */
+::selection {
+  background: rgba(184, 149, 74, 0.25);
+  color: #0f1b2e;
+}
+
+/* Focus styling */
+:focus-visible {
+  outline: 1px solid #b8954a;
+  outline-offset: 2px;
+}
+
+/* Fix for iOS */
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Animation utilities */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
