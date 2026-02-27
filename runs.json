@@ -1,28 +1,28 @@
 {
-  "total_count": 7,
+  "total_count": 11,
   "workflow_runs": [
     {
-      "id": 22414853700,
-      "name": "Deploy to GitHub Pages",
-      "node_id": "WFR_kwLORKB-Zc8AAAAFOAeGRA",
+      "id": 22422090164,
+      "name": "Deploy static content to Pages",
+      "node_id": "WFR_kwLORKB-Zc8AAAAFOHXxtA",
       "head_branch": "master",
-      "head_sha": "a358ed020aae8a66a6eef99e4a8697ae476558ae",
-      "path": ".github/workflows/gh-pages.yml",
-      "display_title": "Add GitHub Actions workflow for deployment to Pages",
-      "run_number": 6,
+      "head_sha": "c7c6c3d912714d8f03b0def244001ed49f634b9e",
+      "path": ".github/workflows/deploy.yml",
+      "display_title": "Remove redundant gh-pages workflow, keeping modern deploy.yml",
+      "run_number": 3,
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "workflow_id": 231215990,
-      "check_suite_id": 58581467314,
-      "check_suite_node_id": "CS_kwDORKB-Zc8AAAANo7pAsg",
-      "url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700",
-      "html_url": "https://github.com/Brain590/siteadvocacia/actions/runs/22414853700",
+      "workflow_id": 238714751,
+      "check_suite_id": 58603743754,
+      "check_suite_node_id": "CS_kwDORKB-Zc8AAAANpQ4qCg",
+      "url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164",
+      "html_url": "https://github.com/Brain590/siteadvocacia/actions/runs/22422090164",
       "pull_requests": [
 
       ],
-      "created_at": "2026-02-25T20:35:26Z",
-      "updated_at": "2026-02-25T20:35:58Z",
+      "created_at": "2026-02-26T00:20:17Z",
+      "updated_at": "2026-02-26T00:20:19Z",
       "actor": {
         "login": "Brain590",
         "id": 210934191,
@@ -48,7 +48,7 @@
       "referenced_workflows": [
 
       ],
-      "run_started_at": "2026-02-25T20:35:26Z",
+      "run_started_at": "2026-02-26T00:20:17Z",
       "triggering_actor": {
         "login": "Brain590",
         "id": 210934191,
@@ -70,19 +70,19 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "jobs_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700/jobs",
-      "logs_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700/logs",
-      "check_suite_url": "https://api.github.com/repos/Brain590/siteadvocacia/check-suites/58581467314",
-      "artifacts_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700/artifacts",
-      "cancel_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700/cancel",
-      "rerun_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22414853700/rerun",
+      "jobs_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164/jobs",
+      "logs_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164/logs",
+      "check_suite_url": "https://api.github.com/repos/Brain590/siteadvocacia/check-suites/58603743754",
+      "artifacts_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164/artifacts",
+      "cancel_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164/cancel",
+      "rerun_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/runs/22422090164/rerun",
       "previous_attempt_url": null,
-      "workflow_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/workflows/231215990",
+      "workflow_url": "https://api.github.com/repos/Brain590/siteadvocacia/actions/workflows/238714751",
       "head_commit": {
-        "id": "a358ed020aae8a66a6eef99e4a8697ae476558ae",
-        "tree_id": "3c983f41df704e89b67a56077dccf183069bf9a6",
-        "message": "Add GitHub Actions workflow for deployment to Pages",
-        "timestamp": "2026-02-25T20:35:17Z",
+        "id": "c7c6c3d912714d8f03b0def244001ed49f634b9e",
+        "tree_id": "01e25c21f0c825a9c1792319b73c0767d75e4b01",
+        "message": "Remove redundant gh-pages workflow, keeping modern deploy.yml",
+        "timestamp": "2026-02-26T00:20:13Z",
         "author": {
           "name": "Carlos Eduardo",
           "email": "cryptobrain590@gmail.com"
